@@ -4,8 +4,8 @@ const TextUpdater = () => {
   const [text, setText] = useState("");
 
   return (
-    <div className="min-h-screen bg-blue-200 p-8"> {/* New wrapper div with background color */}
-      <div className="w-1/2 p-6 bg-white shadow-lg rounded-lg"> {/* Content moved to top-left */}
+    <div className="min-h-screen bg-blue-200 p-8"> 
+      <div className="w-1/2 p-6 bg-white shadow-lg rounded-lg"> 
         <h1 className="text-3xl font-bold text-purple-600 mb-4">Text Updater</h1>
         <input
           type="text"
